@@ -76,7 +76,9 @@ footer{
     color: grey;
 }
 
-@media (min-width:700px){
+
+
+@media (min-width:800px){
 
     .main-container{
         min-width: 600px;
@@ -89,7 +91,9 @@ footer{
        
     }
     .image{
-        width: 539px;
+        min-width: 350px;
+        object-fit: contain;
+
     }
 
     .first-part{
